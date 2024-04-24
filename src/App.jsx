@@ -1,13 +1,12 @@
 import Header from "./components/Header.jsx";
-import Login from "./components/Login.jsx";
-import RefLogin from "./components/RefLogin.jsx";
+import Signup from "./components/SignUp.jsx";
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <RefLogin />
+        <Signup />
       </main>
     </>
   );
